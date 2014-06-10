@@ -7,7 +7,7 @@ from Mint.com to the format required for import into You Need a Budget (YNAB).
 
 1. Log into Mint.com
 2. Assign transactions into your categories
-3. Navigate to https://wwws.mint.com/transaction.event?startDate=**06/01/2014**&endDate=**06/30/2014**&exclHidden=T, replacing the start and end date with the date range you want to export.
+3. Navigate to https://wwws.mint.com/transaction.event?startDate=06/01/2014&endDate=06/30/2014&exclHidden=T, replacing the start and end date with the date range you want to export.
 4. Download all transactions in the date range by clicking the "Export all # link" in the bottom right corner of the page.
 5. Save the transactions CSV in the same directory as the budget script.
 6. Open You Need a Budget
