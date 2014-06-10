@@ -96,10 +96,8 @@ def convert(mint_transactions, category_mappings, excluded_categories=None, outp
 	# load Mint CSV
 	input_file = None
 	ynab_records = []
-	print(excluded_categories)
 	for row in mint_transactions:
 		try:
-			print('%s: %s' % (row['category'], row['category'] in excluded_categories))
 			if row['category'] not in excluded_categories:
 				# add converted record
 				ynab_records.append(convert_row(row, category_mappings))
